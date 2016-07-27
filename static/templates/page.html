@@ -1,0 +1,62 @@
+<div class="modal fade" id="item-modal" tabindex="-1" role="dialog" aria-labelledby="Help">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="item-thumbnail"></div>
+                    </div>
+                    <div class="col-md-9 item-content"></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="chart-items">
+    <img name="imagemap-shim" id="imagemap-shim" usemap="#imageMapArea" src="<%= shim %>" />
+    <% for (var i = 0; i < items.length; i++) { %>
+        <% var item = items[i]; %>
+        <div id="item-position-<%=item.label%>"
+            class="item-image item-image-<%=item.label%> <% if (item.clicked) { %>item-image-<%=item.label%>-visited <% } %>"></div>
+    <% } %>
+</div>
+
+<map name="imageMapArea" id="imageMapArea">
+    <% for (var i = 0; i < items.length; i++) { %>
+        <% var item = items[i]; %>
+        <area shape="<%=item.map_area_shape%>" coords="<%=item.coordinates%>" href="<%=item.label%>" data-id="<%=item.id%>" data-class="item">
+    <% } %>
+</map>
+
+<div class="content-overlay"></div>
+
+<% if (clicked === 0) { %>
+    <div class="progressbar-set-initial">
+        You’ve not started this activity yet.<br />Click on any of the items to begin.
+    </div>
+<% } else if (clicked === items.length) { %>
+    <div class="progressbar-set-done">
+        You’ve completed this activity.
+    </div>
+<% } else { %>
+    <div class="progressbar-set">
+        <div class="progress-title">
+            Activity progress: 
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="<%=percentDone%>"
+                aria-valuemin="0" aria-valuemax="100" style="width: <%=percentDone%>%;">
+                <span class="sr-only"><%=percentDone%>% Complete</span>
+            </div>
+        </div>
+    </div>
+<% } %>

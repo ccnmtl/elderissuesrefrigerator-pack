@@ -1,0 +1,261 @@
+.spacer {
+    margin-top: 10px;
+}
+
+.activity-complete h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* ----- OVERALL SETUP --------------- */
+
+.infographic {
+  display: block;
+  position: relative;
+  height: 600px;
+  width: 800px;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+.chart-items {
+  display: block;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  z-index: 200;
+  height: 200px;
+  width: 400px;
+  border: 0;
+}
+
+#imagemap-shim {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 700;
+  height: 200px;
+  width: 400px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.item-thumbnail {
+  height: 140px;
+  width: 140px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  background-color: #ccc;
+}
+
+.item-image {
+  display: block;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.progressbar-set {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 40px;
+  width: 800px;
+}
+
+.progressbar-set-initial,
+.progressbar-set-done {
+  margin: 0;
+  padding: 5px;
+  border: 2px solid #fff;
+  height: auto;
+  min-height: 20px;
+  width: 300px;
+  background-color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  left: 250px;
+  bottom: 10px;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding-box;
+          background-clip: padding-box;
+  z-index: 300;
+}
+
+.progressbar-set-initial {
+    background: #000 url('../img/icon-warning.png') 5px center no-repeat;
+}
+
+.progressbar-set-done {
+    background: #000 url('../img/icon-ok.png') 5px center no-repeat;
+}
+
+.progress-title {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  float: left;
+  width: 140px;
+  text-align: center;
+}
+
+.progress {
+  float: left;
+  padding-top: 2px;
+  width: 660px;
+}
+
+.progress {
+  border: 1px solid #ccc;
+}
+
+/* ----- FRIDGE ACTIVITY --------------- */
+
+.fridge .infographic {
+  height: 598px;
+  background: transparent url('../img/fridge_bg.jpg') 0 0 no-repeat;
+}
+
+.fridge .content-overlay {
+  height: 598px;
+}
+
+.fridge .chart-items {
+  top: 8px;
+  left: 56px;
+  height: 590px;
+  width: 567px;
+}
+
+.fridge #imagemap-shim {
+  height: 590px;
+  width: 567px;
+}
+
+.fridge .progressbar-set-initial,
+.fridge .progressbar-set-done {
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+#item-position-fastfood {
+  top: 237px;
+  left: 310px;
+  z-index: 220;
+  height: 101px;
+  width: 112px;
+}
+
+#item-position-applejuice {
+  top: 219px;
+  left: 446px;
+  z-index: 230;
+  height: 115px;
+  width: 65px;
+}
+
+#item-position-fruits {
+  top: 345px;
+  left: 365px;
+  z-index: 240;
+  height: 58px;
+  width: 139px;
+}
+
+#item-position-walker {
+  top: 306px;
+  left: 1px;
+  z-index: 250;
+  height: 284px;
+  width: 277px;
+}
+
+#item-position-seniorservices {
+  top: 2px;
+  left: 370px;
+  z-index: 260;
+  height: 113px;
+  width: 85px;
+}
+
+#item-position-busroute {
+  top: 51px;
+  left: 312px;
+  z-index: 270;
+  height: 110px;
+  width: 74px;
+}
+
+#item-position-duebills {
+  top: 38px;
+  left: 432px;
+  z-index: 280;
+  height: 131px;
+  width: 135px;
+}
+
+#thumbnail-fastfood {
+background: #ccc url('../img/fridge_fastfood_t.png') no-repeat center center;}
+
+#thumbnail-applejuice {
+background: #ccc url('../img/fridge_applejuice_t.png') no-repeat center center;}
+
+#thumbnail-fruits {
+background: #ccc url('../img/fridge_fruits_t.png') no-repeat center center;}
+
+#thumbnail-walker {
+background: #ccc url('../img/fridge_walker_t.png') no-repeat center center;}
+
+#thumbnail-seniorservices {
+background: #ccc url('../img/fridge_seniorservices_t.png') no-repeat center center;}
+
+#thumbnail-busroute {
+background: #ccc url('../img/fridge_busroute_t.png') no-repeat center center;}
+
+#thumbnail-duebills {
+background: #ccc url('../img/fridge_duebills_t.png') no-repeat center center;}
+
+.item-image-fastfood {background: url('../img/fridge_fastfood.png') no-repeat 0 0;}
+.item-image-fastfood-visited {background: url('../img/fridge_fastfood.png') no-repeat -225px 0;}
+.item-image-fastfood-hover {background: url('../img/fridge_fastfood.png') no-repeat -112px 0;}
+
+.item-image-applejuice {background: url('../img/fridge_applejuice.png') no-repeat 0 0;}
+.item-image-applejuice-visited {background: url('../img/fridge_applejuice.png') no-repeat -128px 0;}
+.item-image-applejuice-hover {background: url('../img/fridge_applejuice.png') no-repeat -64px 0;}
+
+.item-image-fruits {background: url('../img/fridge_fruits.png') no-repeat 0 0;}
+.item-image-fruits-visited {background: url('../img/fridge_fruits.png') no-repeat -280px 0;}
+.item-image-fruits-hover {background: url('../img/fridge_fruits.png') no-repeat -140px 0;}
+
+.item-image-walker {background: url('../img/fridge_walker.png') no-repeat 0 0;}
+.item-image-walker-visited {background: url('../img/fridge_walker.png') no-repeat -554px 0;}
+.item-image-walker-hover {background: url('../img/fridge_walker.png') no-repeat -277px 0;}
+
+.item-image-seniorservices {background: url('../img/fridge_seniorservices.png') no-repeat 0 0;}
+.item-image-seniorservices-visited {background: url('../img/fridge_seniorservices.png') no-repeat -173px 0;}
+.item-image-seniorservices-hover {background: url('../img/fridge_seniorservices.png') no-repeat -86px 0;}
+
+.item-image-busroute {background: url('../img/fridge_busroute.png') no-repeat 0 0;}
+.item-image-busroute-visited {background: url('../img/fridge_busroute.png') no-repeat -148px 0;}
+.item-image-busroute-hover {background: url('../img/fridge_busroute.png') no-repeat -74px 0;}
+
+.item-image-duebills {background: url('../img/fridge_duebills.png') no-repeat 0 0;}
+.item-image-duebills-visited {background: url('../img/fridge_duebills.png') no-repeat -270px 0;}
+.item-image-duebills-hover {background: url('../img/fridge_duebills.png') no-repeat -135px 0;}

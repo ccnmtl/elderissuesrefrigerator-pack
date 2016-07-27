@@ -1,0 +1,58 @@
+[
+{
+    "map_area_shape": "polygon",
+    "coordinates": "14,577,1,575,5,363,19,346,31,345,59,359,73,375,85,403,89,410,115,412,134,411,164,402,164,355,167,333,174,313,184,307,196,306,220,323,230,345,235,362,243,392,252,511,256,547,259,587,247,588,241,521,168,480,164,539,150,539,156,459,98,473,108,587,97,587,90,541,15,501",
+    "label": "walker",
+    "content": "<p>Just over 6.8 million Americans living outside of institutions use assistive devices to help them with mobility. Walker use is reported by 1.8 million of these users.  Using a walker or other mobility assistance device makes it more difficult to prepare and transport food as well as perform oral hygiene.</p>",
+    "label_name": "A walker",
+    "id": 10
+},
+{
+    "map_area_shape": "polygon",
+    "coordinates": "446,135,460,112,432,106,445,57,477,65,484,39,564,47,552,99,524,167,466,143,445,137",
+    "label": "duebills",
+    "content": "<p>Lack of money is the most common problem among retirees today. Professionals believe an adequate retirement income is approximately 80% of pre-retirement income.  After retirement, it is very important that you have money accessible to pay your regular bills. This includes checking accounts with interest, credit union accounts, and money market funds.  The physical task of sitting down a few times a month to pay bills, keeping an accurate balance in a checkbook, and avoiding finance charges may become more difficult.   Sometimes an older adult\u2019s cognitive functioning can really limit their ability to pay their bills on their own.  People may pay the same bill twice, or mistake a solicitation for a bill.</p>",
+    "label_name": "Overdue bills",
+    "id": 11
+},
+{
+    "map_area_shape": "polygon",
+    "coordinates": "312,57,368,51,376,91,380,119,384,153,348,157,331,162",
+    "label": "busroute",
+    "content": "<p>Despite improvements in medicine, physical and cognitive changes continue to accompany the aging older adults and may compromise their ability to drive, particularly after age 75.  Driving cessation reduces the mobility of older adults, particularly if there are no other modes of transportation that are easily accessible.  This lack of connection with the outside world only leads to greater psychological distress and lower life satisfaction.  Many older travelers are unfamiliar with public transit and may experience a number of potential barriers that prevent them from accessing it, including physical and cognitive challenges and an overall lack of information on routes and services.  This also limits their ability to follow up with medical and dental professionals. </p>",
+    "label_name": "Bus route",
+    "id": 12
+},
+{
+    "map_area_shape": "polygon",
+    "coordinates": "380,111,374,86,376,55,370,1,450,5,454,41,451,58,443,58,432,105,447,109,446,115",
+    "label": "seniorservices",
+    "content": "<p>The ultimate goal in the care of older adults is providing health care that maintains maximum functional capability.  This requires helping the patient and his or her family to use personal and community resources optimally to cope with the problems they encounter.</p>",
+    "label_name": "List of wrap around services",
+    "id": 13
+},
+{
+    "map_area_shape": "polygon",
+    "coordinates": "444,319,449,307,446,266,458,244,460,229,466,223,473,217,488,222,490,232,491,243,506,261,510,322,476,333,458,332,450,327",
+    "label": "applejuice",
+    "content": "<p>People with diabetes should avoid sugary drinks like regular soda, fruit punch, fruit drinks, energy drinks, sweet tea, and other sugary drinks. These will raise blood glucose.  The higher your blood sugar level, the greater the supply of sugars and starches \u2014 and the more acid wearing away at your teeth.  Periodontitis tends to be more severe among people who have uncontrolled diabetes because diabetes lowers the ability to resist infection and slows healing.</p>",
+    "label_name": "Juice",
+    "id": 14
+},
+{
+    "map_area_shape": "polygon",
+    "coordinates": "308,318,324,285,328,271,337,261,342,241,375,237,404,239,408,257,404,259,416,268,421,327,341,337,329,335,324,326",
+    "label": "fastfood",
+    "content": "<p>For retirees on fixed incomes who may have difficulty walking more than a few blocks, McDonald\u2019s restaurants remain  freely accessible spaces where they can socialize and purchase low-cost meals that are soft and flavorful enough to overcome their diminished sense of taste.</p>",
+    "label_name": "McDonald\u2019s bag",
+    "id": 15
+},
+{
+    "map_area_shape": "polygon",
+    "coordinates": "367,398,363,383,366,370,372,365,380,360,384,353,386,354,386,361,394,364,398,371,406,371,408,360,416,352,427,353,422,347,426,345,432,353,442,355,452,353,461,359,468,367,481,359,494,360,500,367,504,380,498,392,488,394,475,393,466,385,460,391,451,395,445,394,440,400,434,401,431,399,424,403,417,403,414,399,406,376,399,377,398,383,396,397,391,399,380,398,370,398",
+    "label": "fruits",
+    "content": "<p>Older adults with chewing and swallowing problems may not be able to safely eat foods with firm textures. They may need to eat only soft foods, or they may require that foods be cut up, ground/minced, or pureed. Unless such preparations retain appealing appearance, smell, and taste, older adults may experience a decline in food interest and intake. Illness, medications and disease conditions can alter these senses in the older adult and further decrease the enjoyment of foods.  Arthritis can also present many challenges in the kitchen, whether you struggle to open fruit such as oranges or open cans and containers. Couples may have different issues- he has texture issues and she has arthritic problems.</p>",
+    "label_name": "Apples and oranges",
+    "id": 16
+}
+]
