@@ -13,7 +13,8 @@ var InfographicView = Backbone.View.extend({
         'click #imageMapArea area': 'onClick',
     },
     initialize: function(options) {
-        _.bindAll(this, 'render', 'progress', 'onHover', 'onClick');
+        _.bindAll(this, 'render', 'progress', 'onHover', 'onClick',
+                  'beforeUnload');
 
         var self = this;
         this.template = require('../static/templates/page.html');
@@ -26,6 +27,7 @@ var InfographicView = Backbone.View.extend({
         }
 
         jQuery('.btn-print').click(this.onPrint);
+        jQuery(window).on('beforeunload', this.beforeUnload);
 
         this.render();
     },
@@ -75,6 +77,12 @@ var InfographicView = Backbone.View.extend({
     maybeComplete: function() {
         if (this.items.clicked() === this.items.length) {
             jQuery('.activity-complete').show();
+        }
+    },
+    beforeUnload: function() {
+        if (jQuery('.activity-complete:hidden').length > 0) {
+            return 'The activity is not complete. ' +
+                'Your progress will not be saved if you leave this page.';
         }
     }
 });
