@@ -9,12 +9,13 @@ require('bootstrap');
 
 var InfographicView = Backbone.View.extend({
     events: {
-        'hover #imageMapArea area': 'onHover',
+        'mouseover #imageMapArea area': 'onMouseOver',
+        'mouseout #imageMapArea area': 'onMouseOut',
         'click #imageMapArea area': 'onClick',
     },
     initialize: function(options) {
-        _.bindAll(this, 'render', 'progress', 'onHover', 'onClick',
-                  'beforeUnload');
+        _.bindAll(this, 'render', 'progress', 'onMouseOver', 'onMouseOut',
+                'onClick', 'beforeUnload');
 
         var self = this;
         this.template = require('../static/templates/page.html');
@@ -48,7 +49,13 @@ var InfographicView = Backbone.View.extend({
 
         this.maybeComplete();
     },
-    onHover: function(evt) {
+    onMouseOut: function(evt) {
+        var itemContent = jQuery(evt.target).attr('href');
+        var itemPosition = 'item-position-' + itemContent;
+        var itemImage = 'item-image-' + itemContent;
+        jQuery('#' + itemPosition).removeClass(itemImage + '-hover');
+    },
+    onMouseOver: function(evt) {
         var itemContent = jQuery(evt.target).attr('href');
         var itemPosition = 'item-position-' + itemContent;
         var itemImage = 'item-image-' + itemContent;
