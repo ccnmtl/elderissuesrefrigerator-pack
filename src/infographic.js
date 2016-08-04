@@ -28,7 +28,7 @@ var InfographicView = Backbone.View.extend({
         }
 
         jQuery('.btn-print').click(this.onPrint);
-        //jQuery(window).on('beforeunload', this.beforeUnload);
+        jQuery(window).on('beforeunload', this.beforeUnload);
 
         this.render();
     },
