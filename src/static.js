@@ -1,2 +1,9 @@
 require('!file?name=[name].[ext]!../static/img/ctl-logo.png');
 require('!file?name=[name].[ext]!../static/img/shim.gif');
+require('!file?name=[name].[ext]!../static/img/fridge_fastfood_t.png');
+require('!file?name=[name].[ext]!../static/img/fridge_applejuice_t.png');
+require('!file?name=[name].[ext]!../static/img/fridge_fruits_t.png');
+require('!file?name=[name].[ext]!../static/img/fridge_walker_t.png');
+require('!file?name=[name].[ext]!../static/img/fridge_seniorservices_t.png');
+require('!file?name=[name].[ext]!../static/img/fridge_busroute_t.png');
+require('!file?name=[name].[ext]!../static/img/fridge_duebills_t.png');
