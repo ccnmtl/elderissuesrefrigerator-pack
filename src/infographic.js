@@ -97,10 +97,10 @@ var InfographicView = Backbone.View.extend({
 var InfographicApp = {
     initialize: function(options) {
         var infographicView = new InfographicView({
-            el: jQuery('.infographic')
+            el: jQuery('.infographic-container')
         });
 
-        jQuery('body').show();
+        jQuery('.interactive-container').show();
     }
 };
 

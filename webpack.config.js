@@ -10,6 +10,7 @@ module.exports = {
             {test: /\.html$/, loader: 'underscore-template-loader'},
             {test: /\.css$/, loader: 'style!css!'},
             {test: /\.png$/, loader: 'url-loader?mimetype=image/png'},
+            {test: /\.gif$/, loader: 'url-loader?mimetype=image/gif'},
             {test: /\.jpg$/, loader: 'url-loader?mimetype=image/jpg'},
             {test: /\.json/, loader: 'json-loader'}, {
                 test: /\.woff(2)?(\?v=\d+\.\d+\.\d+)?$/,
