@@ -1,7 +1,7 @@
 {
   "name": "elderissuesrefrigerator-pack",
-  "version": "0.1.7",
-  "description": "",
+  "version": "0.1.8",
+  "description": "Interactive to help understand issues faced by older adults",
   "main": "src/index.js",
   "scripts": {
     "serve": "webpack-dev-server --hot --inline --open",
@@ -31,7 +31,7 @@
   "bugs": {
     "url": "https://github.com/ccnmtl/elderissuesrefrigerator-pack/issues"
   },
-  "license": "MIT",
+  "license": "GPL-3.0",
   "devDependencies": {
     "chai": "^3.5.0",
     "jscs": "^3.0.4",
