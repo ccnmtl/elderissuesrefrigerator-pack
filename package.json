@@ -1,6 +1,6 @@
 {
   "name": "elderissuesrefrigerator-pack",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Interactive to help understand issues faced by older adults",
   "main": "src/index.js",
   "scripts": {
@@ -36,6 +36,7 @@
     "chai": "^4.0.0",
     "jscs": "^3.0.4",
     "jshint": "^2.9.2",
+    "loglevel":  "^1.4.1",      
     "mocha": "^3.2.0",
     "mocha-phantomjs": "^4.0.2",
     "phantomjs-prebuilt": "^2.1.7",
