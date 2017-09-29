@@ -27,8 +27,9 @@ var InfographicView = Backbone.View.extend({
         'click #imageMapArea area': 'onClick',
     },
     initialize: function(options) {
-        _.bindAll(this, 'render', 'progress', 'onMouseOver', 'onMouseOut',
-                'onClick', 'beforeUnload');
+        _.bindAll(
+            this, 'render', 'progress', 'onMouseOver', 'onMouseOut',
+            'onClick', 'beforeUnload');
 
         var self = this;
         this.template = require('../static/templates/page.html');
@@ -116,7 +117,7 @@ var InfographicView = Backbone.View.extend({
 
 var InfographicApp = {
     initialize: function(options) {
-        var infographicView = new InfographicView({
+        new InfographicView({
             el: jQuery('.infographic-container'),
             background: options.background
         });
