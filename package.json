@@ -34,7 +34,8 @@
   "license": "GPL-3.0",
   "greenkeeper": {
     "ignore": [
-      "bootstrap"
+      "bootstrap",
+      "webpack"
     ]
   },
   "devDependencies": {
