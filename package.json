@@ -1,6 +1,6 @@
 {
   "name": "elderissuesrefrigerator-pack",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Interactive to help understand issues faced by older adults",
   "main": "src/index.js",
   "scripts": {
