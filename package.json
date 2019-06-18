@@ -52,7 +52,7 @@
     "file-loader": "^4.0.0",
     "style-loader": "^0.23.0",
     "phantomjs-prebuilt": "^2.1.15",
-    "webpack-dev-server": "^3.1.0"
+    "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
     "backbone": "1.4.0",
