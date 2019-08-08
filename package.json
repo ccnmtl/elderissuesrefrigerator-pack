@@ -50,7 +50,7 @@
     "underscore-template-loader": "^1.0.0",
     "css-loader": "^3.0.0",
     "file-loader": "^4.0.0",
-    "style-loader": "^0.23.0",
+    "style-loader": "^1.0.0",
     "phantomjs-prebuilt": "^2.1.15",
     "webpack-dev-server": "^3.1.0"
   },
