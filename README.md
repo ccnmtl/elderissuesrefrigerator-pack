@@ -1,8 +1,6 @@
 Elder Issues: Cluttered Refrigerator Exercise 
 ==========
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/ccnmtl/elderissuesrefrigerator-pack.svg)](https://greenkeeper.io/)
-
 #### Background
 
 #### Older Adults module
