@@ -1,14 +1,13 @@
 /* global module: true */
 
 var Backbone = require('backbone');
-var _ = require('underscore');
 
 var Item = Backbone.Model.extend({
     defaults: {
         clicked: false
     },
     toTemplate: function() {
-        return _(this.attributes).clone();
+        return {...this.attributes};
     }
 });
 
