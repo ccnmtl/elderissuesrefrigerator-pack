@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/ccnmtl/elderissuesrefrigerator-pack/workflows/build-and-test/badge.svg)](https://github.com/ccnmtl/elderissuesrefrigerator-pack/actions)
+
 Elder Issues: Cluttered Refrigerator Exercise 
 ==========
 
