@@ -51,7 +51,7 @@
   "dependencies": {
     "acorn": "8.11.2",
     "backbone": "1.6.0",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^5.3.3",
     "bootstrap-arrow-buttons": "^1.0.4",
     "jquery": "^3.5.0",
     "underscore": "1.13.1",
