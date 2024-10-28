@@ -52,7 +52,7 @@
     "webpack-dev-server": "^5.0.0"
   },
   "dependencies": {
-    "acorn": "8.13.0",
+    "acorn": "8.14.0",
     "backbone": "1.6.0",
     "bootstrap": "^3.3.7",
     "bootstrap-arrow-buttons": "^1.0.4",
